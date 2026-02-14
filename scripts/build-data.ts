@@ -105,7 +105,6 @@ async function build() {
         version: notesHash.substring(0, 10),
         size: notesStats.size,
       },
-      updatedAt: new Date().toISOString(),
     };
 
     console.log(`Created ${yearDirName}/${dataFileName} - Size: ${(dataStats.size / 1024).toFixed(2)} KB`);
