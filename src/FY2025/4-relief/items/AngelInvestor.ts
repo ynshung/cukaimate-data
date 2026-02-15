@@ -10,6 +10,7 @@ export const AngelInvestor: Question = {
   title: "Angel Investor Incentive",
   description:
     "Have you invested on companies under the angel investor tax incentive?",
+  tips: "If you don't know what this means, you probably don't need to worry about it.",
   inputType: {
     type: "number",
     isCurrency: true,

@@ -17,21 +17,3 @@ export const GlobalCalculations = {
   BALANCE_TAX: "balance-tax",
   PAYMENT_MADE: "payment-made",
 };
-
-export const CALCULATION_LABELS: Record<string, string> = {
-  [GlobalCalculations.AGGREGATE_INCOME]: "Aggregate Income",
-  [GlobalCalculations.TOTAL_RELIEF]: "Total Relief",
-  [GlobalCalculations.TOTAL_DEDUCTIBLE]: "Relief & Deductible",
-  [GlobalCalculations.CHARGEABLE_INCOME]: "Chargeable Income",
-  [GlobalCalculations.TAX_ON_FIRST]: "Tax on First",
-  [GlobalCalculations.TAX_ON_RATE]: "Tax on Rate",
-  [GlobalCalculations.TAX_RATE]: "Tax Rate",
-  [GlobalCalculations.TAX_RATE_BALANCE]: "Tax Rate Balance",
-  [GlobalCalculations.TOTAL_TAX]: "Total Income Tax",
-  [GlobalCalculations.TOTAL_REBATE]: "Total Rebate",
-  [GlobalCalculations.TAX_CHARGED]: "Total Tax Charged",
-  [GlobalCalculations.TOTAL_DEDUCTIONS]: "Other Deductions",
-  [GlobalCalculations.TAX_PAYABLE]: "Tax Payable",
-  [GlobalCalculations.BALANCE_TAX]: "Tax Balance",
-  [GlobalCalculations.PAYMENT_MADE]: "Payment Made",
-};

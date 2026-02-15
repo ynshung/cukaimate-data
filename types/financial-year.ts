@@ -20,6 +20,7 @@ export interface Question {
   title: string;
   description: string;
   explanatoryNotes?: string;
+  tips?: string;
   allowAttachment: boolean;
 
   inputType: InputType;

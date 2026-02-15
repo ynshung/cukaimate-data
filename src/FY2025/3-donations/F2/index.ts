@@ -8,7 +8,7 @@ import { WakafOrEndowment } from "./WakafOrEndowment";
 
 export const F2: Section = {
   id: DONATIONS_IDS.F2_SECTION,
-  title: "Donations",
+  title: "Selected Donations",
   questions: [
     ApprovedInstitutions,
     SportsActivities,
@@ -23,5 +23,4 @@ export const F2: Section = {
       multiplier: 0.1,
     },
   },
-  noSubsectionDisplay: true,
 };
