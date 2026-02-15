@@ -22,14 +22,14 @@ export const Spouse: Question = {
     conditions: [
       {
         type: "string",
-        dependsOn: PERSONAL_IDS.ASSESSMENT_TYPE,
-        value: "separate",
-        operator: "neq",
+        dependsOn: PERSONAL_IDS.CURRENT_STATUS,
+        value: "married",
+        operator: "eq",
       },
       {
         type: "string",
-        dependsOn: PERSONAL_IDS.CURRENT_STATUS,
-        value: "divorced-widowed",
+        dependsOn: PERSONAL_IDS.ASSESSMENT_TYPE,
+        value: "separate",
         operator: "neq",
       },
     ],
