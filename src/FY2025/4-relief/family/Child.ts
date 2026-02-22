@@ -8,10 +8,10 @@ export const Child: Question = {
     name: "child-friendly",
   },
   title: "Child",
-  description: "Child (TBA)",
+  description: "Please refer to the Tips and Explanatory Notes on how to calculate the relief amount.",
   inputType: {
-    type: "custom-component",
-    component: "ChildInput", // TODO: Create a blank component first
+    type: "number",
+    isCurrency: true,
   },
-  allowAttachment: false,
+  allowAttachment: true,
 };
