@@ -6,6 +6,7 @@ import { ChildCareFees } from "./ChildCareFees";
 import { DisabledSpouse } from "./DisabledSpouse";
 import { Spouse } from "./Spouse";
 import { SSPN } from "./SSPN";
+import { Child } from "./Child";
 
 export const FamilySection: Section = {
   id: RELIEF_IDS.FAMILY_SECTION,
@@ -21,5 +22,6 @@ export const FamilySection: Section = {
     Spouse,
     Alimony,
     DisabledSpouse,
+    Child,
   ],
 };
