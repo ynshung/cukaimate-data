@@ -3,10 +3,7 @@ import { INCOME_IDS } from "./constants";
 
 export const RentalIncome: Question = {
   id: INCOME_IDS.RENTAL_INCOME,
-  icon: {
-    name: "house",
-    pack: "MI",
-  },
+  icon: "house",
   title: "Rental Income",
   description:
     "Money received from renting out properties like houses, shops, land etc. in Malaysia.",

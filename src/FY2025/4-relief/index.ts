@@ -15,10 +15,7 @@ import { SportsSection } from "./sports";
 export const ReliefSection: Section = {
   id: RELIEF_IDS.SECTION,
   title: "Reliefs",
-  icon: {
-    name: "hand-holding-heart",
-    pack: "FA",
-  },
+  icon: "hand-holding-heart",
   questions: [
     AngelInvestor,
     Individual,

@@ -10,10 +10,7 @@ import { SOCSOEIS } from "./SOCSOEIS";
 export const InsuranceSection: Section = {
   id: RELIEF_IDS.INSURANCE_SECTION,
   title: "Insurance & Other",
-  icon: {
-    pack: "MI",
-    name: "security",
-  },
+  icon: "shield",
   questions: [
     LifeInsuranceEPF,
     EPFApprovedSchemes,

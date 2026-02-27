@@ -3,10 +3,7 @@ import { RELIEF_IDS } from "../constants";
 
 export const SOCSOEIS: Question = {
   id: RELIEF_IDS.SOCSO_EIS,
-  icon: {
-    pack: "MI",
-    name: "work",
-  },
+  icon: "briefcase",
   title: "SOCSO/EIS",
   description:
     "Your contributions to SOCSO or the Employment Insurance System.",

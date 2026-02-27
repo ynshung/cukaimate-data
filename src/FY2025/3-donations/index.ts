@@ -12,10 +12,7 @@ import { MedicalEquipment } from "./MedicalEquipment";
 const DonationsDetails: Section = {
   id: DONATIONS_IDS.SECTION_DETAILS,
   title: "Donations",
-  icon: {
-    name: "gift",
-    pack: "FA",
-  },
+  icon: "gift",
   questions: [
     GovernmentGifts,
     F2,
@@ -37,10 +34,7 @@ const DonationsDetails: Section = {
 export const DonationsSection: Section = {
   id: DONATIONS_IDS.SECTION,
   title: "Donations",
-  icon: {
-    name: "gift",
-    pack: "FA",
-  },
+  icon: "gift",
   questions: [HasDonations, DonationsDetails],
   color: "#e24d48",
 };

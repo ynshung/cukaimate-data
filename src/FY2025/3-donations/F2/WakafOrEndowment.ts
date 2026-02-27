@@ -3,10 +3,7 @@ import { DONATIONS_IDS } from "../constants";
 
 export const WakafOrEndowment: Question = {
   id: DONATIONS_IDS.F2_WAKAF_OR_ENDOWMENT,
-  icon: {
-    name: "hand-heart",
-    pack: "MCI",
-  },
+  icon: "school",
   title: "Wakaf or Endowment",
   description:
     "Cash gifts in the form of wakaf to religious authorities/bodies or public universities, or endowment gifts to public universities.",

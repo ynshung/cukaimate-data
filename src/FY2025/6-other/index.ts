@@ -6,10 +6,7 @@ import { Section132 } from "./Section132";
 export const OtherSection: Section = {
   id: OTHER_IDS.SECTION,
   title: "Other Deductions",
-  icon: {
-    name: "receipt",
-    pack: "FA",
-  },
+  icon: "receipt",
   questions: [Section110, Section132],
   color: "#58764f",
 };

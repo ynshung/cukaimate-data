@@ -4,10 +4,7 @@ import { INCOME_IDS } from "./constants";
 
 export const SpouseIncome: Question = {
   id: INCOME_IDS.SPOUSE_INCOME,
-  icon: {
-    name: "account-heart",
-    pack: "MCI",
-  },
+  icon: "people-pulling",
   title: "Spouse Income",
   description: "How much is your spouse's total income? Leave blank if none.",
   allowAttachment: true,

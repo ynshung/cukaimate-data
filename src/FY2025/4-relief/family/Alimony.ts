@@ -4,10 +4,7 @@ import { RELIEF_IDS } from "../constants";
 
 export const Alimony: Question = {
   id: RELIEF_IDS.ALIMONY,
-  icon: {
-    pack: "MI",
-    name: "gavel",
-  },
+  icon: "gavel",
   title: "Alimony",
   description: "Alimony payments to a former wife.",
   inputType: {

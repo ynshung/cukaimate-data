@@ -3,10 +3,7 @@ import { INCOME_IDS } from "./constants";
 
 export const EmploymentCount: Question = {
   id: INCOME_IDS.EMPLOYMENT_COUNT,
-  icon: {
-    name: "office-building",
-    pack: "MCI",
-  },
+  icon: "building",
   title: "Employment Count",
   description: "The total number of company where you had received income.",
   allowAttachment: false,

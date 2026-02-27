@@ -7,10 +7,7 @@ import { UpskillingFees } from "./UpskillingFees";
 export const EducationSection: Section = {
   id: RELIEF_IDS.EDUCATION_SECTION,
   title: "Education",
-  icon: {
-    pack: "MI",
-    name: "school",
-  },
+  icon: "school",
   questions: [EducationFeesSkills, EducationFeesDegree, UpskillingFees],
   sectionLimit: {
     type: "fixed-limit",

@@ -3,10 +3,7 @@ import { RELIEF_IDS } from "../../constants";
 
 export const MentalHealth: Question = {
   id: RELIEF_IDS.MENTAL_HEALTH,
-  icon: {
-    pack: "MI",
-    name: "self-improvement",
-  },
+  icon: "brain",
   title: "Mental Health",
   description:
     "Consultation or examination fees with a psychiatrist, clinical psychologist, or counselor.",

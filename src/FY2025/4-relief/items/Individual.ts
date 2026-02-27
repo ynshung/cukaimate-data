@@ -3,10 +3,7 @@ import { RELIEF_IDS } from "../constants";
 
 export const Individual: Question = {
   id: RELIEF_IDS.INDIVIDUAL,
-  icon: {
-    pack: "MI",
-    name: "person",
-  },
+  icon: "user",
   title: "Individual",
   description:
     "A standard automatic relief for yourself and your dependent relatives.",

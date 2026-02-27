@@ -3,10 +3,7 @@ import { RELIEF_IDS } from "../constants";
 
 export const PRSAnnuity: Question = {
   id: RELIEF_IDS.PRS_ANNUITY,
-  icon: {
-    pack: "MI",
-    name: "savings",
-  },
+  icon: "vault",
   title: "PRS & Annuity",
   description:
     "Contributions to Private Retirement Schemes or deferred annuity premiums.",

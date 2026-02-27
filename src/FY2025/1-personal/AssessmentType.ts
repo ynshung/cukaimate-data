@@ -3,10 +3,7 @@ import { PERSONAL_IDS } from "./constants";
 
 export const AssessmentType: Question = {
   id: PERSONAL_IDS.ASSESSMENT_TYPE,
-  icon: {
-    name: "account-heart",
-    pack: "MCI",
-  },
+  icon: "arrows-to-dot",
   title: "Assessment Type",
   description: "Are you filing with your spouse, separate or by yourself?",
   allowAttachment: false,

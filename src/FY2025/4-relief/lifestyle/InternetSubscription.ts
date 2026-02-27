@@ -3,10 +3,7 @@ import { RELIEF_IDS } from "../constants";
 
 export const InternetSubscription: Question = {
   id: RELIEF_IDS.INTERNET_SUBSCRIPTION,
-  icon: {
-    pack: "MI",
-    name: "wifi",
-  },
+  icon: "house-signal",
   title: "Internet Subscription",
   description: "Monthly internet bills registered under your own name.",
   inputType: {

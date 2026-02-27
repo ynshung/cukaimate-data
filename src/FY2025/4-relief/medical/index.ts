@@ -7,10 +7,7 @@ import { MedicalExpenseSection } from "./expenses";
 export const MedicalSection: Section = {
   id: RELIEF_IDS.MEDICAL_SECTION,
   title: "Medical",
-  icon: {
-    pack: "MI",
-    name: "medical-services",
-  },
+  icon: "staff-snake",
   questions: [
     MedicalExpenseSection,
     MedicalExamSection,

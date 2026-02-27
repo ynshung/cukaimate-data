@@ -7,10 +7,7 @@ import { PAID_IDS } from "./constants";
 export const PaidSection: Section = {
   id: PAID_IDS.SECTION,
   title: "Tax Paid",
-  icon: {
-    name: "money-bill-transfer",
-    pack: "FA",
-  },
+  icon: "money-bill-transfer",
   questions: [MTD, Section107D, SelfInstalments],
   color: "#658d40",
 };

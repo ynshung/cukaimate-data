@@ -3,6 +3,7 @@ import { REBATE_IDS } from "../constants";
 
 export const DepartureLevy: Question = {
   id: REBATE_IDS.DEPARTURE_LEVY,
+  icon: "plane-departure",
   title: "Departure Levy",
   description:
     "A rebate for travel out of Malaysia for religious pilgrimage (e.g., Umrah) by air (twice in lifetime).",

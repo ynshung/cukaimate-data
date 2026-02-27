@@ -3,10 +3,7 @@ import { RELIEF_IDS } from "../constants";
 
 export const SportsFacilityFees: Question = {
   id: RELIEF_IDS.SPORTS_FACILITY_FEES,
-  icon: {
-    pack: "MI",
-    name: "stadium",
-  },
+  icon: "flag-checkered",
   title: "Sports Facility Fees",
   description: "Rental or entrance fees for using sports facilities.",
   inputType: {

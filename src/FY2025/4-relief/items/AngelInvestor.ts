@@ -3,10 +3,7 @@ import { RELIEF_IDS } from "../constants";
 
 export const AngelInvestor: Question = {
   id: RELIEF_IDS.ANGEL_INVESTOR,
-  icon: {
-    pack: "MI",
-    name: "trending-up",
-  },
+  icon: "hand-holding-dollar",
   title: "Angel Investor Incentive",
   description:
     "Have you invested on companies under the angel investor tax incentive?",

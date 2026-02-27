@@ -3,10 +3,7 @@ import { RELIEF_IDS } from "../constants";
 
 export const SupportingEquipment: Question = {
   id: RELIEF_IDS.SUPPORTING_EQUIPMENT,
-  icon: {
-    pack: "MI",
-    name: "accessible",
-  },
+  icon: "wheelchair",
   title: "Supporting Equipment",
   description:
     "Purchase of basic supporting tools (e.g., wheelchairs, hearing aids) for a disabled self, spouse, child, or parent.",

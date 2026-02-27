@@ -3,10 +3,7 @@ import { RELIEF_IDS } from "../../constants";
 
 export const DisabilityIntervention: Question = {
   id: RELIEF_IDS.DISABILITY_INTERVENTION,
-  icon: {
-    pack: "MI",
-    name: "child-care",
-  },
+  icon: "hands-holding-child",
   title: "Disability Intervention",
   description:
     "Early intervention or rehabilitation treatments for children with learning disabilities.",

@@ -3,10 +3,7 @@ import { INCOME_IDS } from "./constants";
 
 export const OtherIncome: Question = {
   id: INCOME_IDS.OTHER_INCOME,
-  icon: {
-    name: "house",
-    pack: "MI",
-  },
+  icon: "percent",
   title: "Other Income",
   description:
     "Combined income from interest, discounts, royalties, pensions, or other miscellaneous gains in Malaysia.",

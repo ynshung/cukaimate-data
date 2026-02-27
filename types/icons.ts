@@ -1,20 +1,4 @@
-import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
-import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
-import MaterialIcons from "@expo/vector-icons/MaterialIcons";
+import { FontAwesomeFreeSolid } from "@react-native-vector-icons/fontawesome-free-solid";
+import React from "react";
 
-type MCIIcon = {
-  pack: "MCI";
-  name: keyof typeof MaterialCommunityIcons.glyphMap;
-};
-
-type MIIcon = {
-  pack: "MI";
-  name: keyof typeof MaterialIcons.glyphMap;
-};
-
-type FAIcon = {
-  pack: "FA";
-  name: keyof typeof FontAwesome6.glyphMap;
-};
-
-export type Icons = MCIIcon | MIIcon | FAIcon;
+export type Icons = React.ComponentProps<typeof FontAwesomeFreeSolid>["name"];

@@ -6,10 +6,7 @@ import { ParentMedicalExam } from "./ParentMedicalExam";
 export const ParentsSection: Section = {
   id: RELIEF_IDS.PARENT_SECTION,
   title: "Parents Relief",
-  icon: {
-    pack: "MI",
-    name: "elderly",
-  },
+  icon: "person-cane",
   questions: [ParentMedical, ParentMedicalExam],
   sectionLimit: {
     type: "fixed-limit",

@@ -3,10 +3,7 @@ import { PERSONAL_IDS } from "./constants";
 
 export const CurrentStatus: Question = {
   id: PERSONAL_IDS.CURRENT_STATUS,
-  icon: {
-    pack: "FA",
-    name: "person-circle-question",
-  },
+  icon: "person-circle-question",
   title: "Current Status",
   description: "What is your current status as of 31 December 2025?",
   allowAttachment: false,

@@ -3,10 +3,7 @@ import { RELIEF_IDS } from "../constants";
 
 export const LifeInsuranceEPF: Question = {
   id: RELIEF_IDS.LIFE_INSURANCE_EPF,
-  icon: {
-    pack: "MI",
-    name: "personal-injury",
-  },
+  icon: "shield-heart",
   title: "Life Insurance/EPF",
   description: "Voluntary EPF contributions or life insurance premiums.",
   inputType: {

@@ -3,10 +3,7 @@ import { RELIEF_IDS } from "../../constants";
 
 export const Vaccinations: Question = {
   id: RELIEF_IDS.VACCINATIONS,
-  icon: {
-    pack: "MI",
-    name: "vaccines",
-  },
+  icon: "syringe",
   title: "Vaccinations",
   description:
     "Medical expenses for vaccinations for yourself, spouse, or child.",

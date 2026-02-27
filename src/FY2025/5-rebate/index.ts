@@ -7,10 +7,7 @@ import { ZakatFitrah } from "./other/ZakatFitrah";
 export const RebateSection: Section = {
   id: REBATE_IDS.SECTION,
   title: "Rebates",
-  icon: {
-    name: "percent",
-    pack: "FA",
-  },
+  icon: "percent",
   questions: [LowIncomeSection, ZakatFitrah, DepartureLevy],
   color: "#e5772e",
 };

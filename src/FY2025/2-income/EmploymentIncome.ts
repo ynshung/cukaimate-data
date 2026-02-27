@@ -3,10 +3,7 @@ import { INCOME_IDS } from "./constants";
 
 export const EmploymentIncome: Question = {
   id: INCOME_IDS.EMPLOYMENT_INCOME,
-  icon: {
-    name: "cash",
-    pack: "MCI",
-  },
+  icon: "money-check-dollar",
   title: "Employment Income",
   description:
     "Your total earnings from work in Malaysia, including salary, bonuses, and allowances. You should refer to the EA form from your employer.",

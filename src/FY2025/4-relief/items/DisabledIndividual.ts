@@ -3,10 +3,7 @@ import { RELIEF_IDS } from "../constants";
 
 export const DisabledIndividual: Question = {
   id: RELIEF_IDS.DISABLED_INDIVIDUAL,
-  icon: {
-    pack: "MI",
-    name: "accessible",
-  },
+  icon: "person-walking-with-cane",
   title: "Disabled Individual",
   description:
     "Are you a disabled person under the Department of Social Welfare (DSW)?",

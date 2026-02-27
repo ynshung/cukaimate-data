@@ -3,10 +3,7 @@ import { DONATIONS_IDS } from "./constants";
 
 export const LibraryFacilities: Question = {
   id: DONATIONS_IDS.LIBRARY_FACILITIES,
-  icon: {
-    name: "local-library",
-    pack: "MI",
-  },
+  icon: "book",
   title: "Library Facilities",
   description:
     "Cash gifts for providing library facilities to public libraries or those in schools and higher education institutions.",

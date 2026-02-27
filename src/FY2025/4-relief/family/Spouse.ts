@@ -4,10 +4,7 @@ import { RELIEF_IDS } from "../constants";
 
 export const Spouse: Question = {
   id: RELIEF_IDS.SPOUSE,
-  icon: {
-    pack: "MI",
-    name: "person",
-  },
+  icon: "person",
   title: "Spouse",
   description:
     "Relief for a spouse with no income OR elected for joint assessment.",

@@ -8,10 +8,7 @@ import { SportsFacilityFees } from "./SportsFacilityFees";
 export const SportsSection: Section = {
   id: RELIEF_IDS.SPORTS_SECTION,
   title: "Sports",
-  icon: {
-    pack: "MI",
-    name: "sports-tennis",
-  },
+  icon: "person-running",
   questions: [
     SportsEquipment,
     SportsFacilityFees,

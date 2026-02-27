@@ -8,10 +8,7 @@ import { TechDevices } from "./TechDevices";
 export const LifestyleSection: Section = {
   id: RELIEF_IDS.LIFESTYLE_SECTION,
   title: "Lifestyle",
-  icon: {
-    pack: "MI",
-    name: "auto-stories",
-  },
+  icon: "book-open",
   questions: [
     BooksPublications,
     TechDevices,

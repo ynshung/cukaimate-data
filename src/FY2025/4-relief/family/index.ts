@@ -11,10 +11,7 @@ import { Child } from "./Child";
 export const FamilySection: Section = {
   id: RELIEF_IDS.FAMILY_SECTION,
   title: "Family",
-  icon: {
-    pack: "MI",
-    name: "family-restroom",
-  },
+  icon: "people-roof",
   questions: [
     BreastfeedingEquipment,
     ChildCareFees,

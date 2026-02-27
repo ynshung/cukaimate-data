@@ -3,10 +3,7 @@ import { RELIEF_IDS } from "../../constants";
 
 export const LearningDisability: Question = {
   id: RELIEF_IDS.LEARNING_DISABILITY,
-  icon: {
-    pack: "MI",
-    name: "child-care",
-  },
+  icon: "child-reaching",
   title: "Learning Disability Diag.",
   description:
     "Diagnosis assessment for learning disabilities in children (Autism, ADHD, etc.).",

@@ -3,10 +3,7 @@ import { INCOME_IDS } from "./constants";
 
 export const NonMalaysiaIncome: Question = {
   id: INCOME_IDS.NON_MALAYSIA_INCOME,
-  icon: {
-    name: "earth",
-    pack: "MCI",
-  },
+  icon: "globe-americas",
   title: "Non-Malaysia Income",
   description:
     "Any statutory income received in Malaysia from sources outside the country.",

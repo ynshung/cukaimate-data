@@ -10,10 +10,7 @@ import { SpouseIncome } from "./SpouseIncome";
 export const IncomeSection: Section = {
   id: INCOME_IDS.SECTION,
   title: "Income",
-  icon: {
-    name: "money-bill-1-wave",
-    pack: "FA",
-  },
+  icon: "money-bill-1-wave",
   // TODO: Account for zero employment (income), make minimum 1?
   questions: [
     EmploymentCount,

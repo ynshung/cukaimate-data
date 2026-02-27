@@ -3,10 +3,7 @@ import { RELIEF_IDS } from "../constants";
 
 export const EPFApprovedSchemes: Question = {
   id: RELIEF_IDS.EPF_APPROVED_SCHEMES,
-  icon: {
-    pack: "MI",
-    name: "savings",
-  },
+  icon: "piggy-bank",
   title: "EPF/Approved Schemes",
   description:
     "Compulsory or voluntary contributions to EPF or other approved schemes.",

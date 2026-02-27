@@ -9,10 +9,7 @@ import { TaxBorneEmployer } from "./TaxBorneEmployer";
 export const PersonalSection: Section = {
   id: PERSONAL_IDS.SECTION,
   title: "Personal Particulars",
-  icon: {
-    name: "person",
-    pack: "MI",
-  },
+  icon: "user",
   questions: [
     CurrentStatus,
     AssessmentType,
