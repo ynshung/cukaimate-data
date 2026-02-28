@@ -14,8 +14,8 @@ export const WakafOrEndowment: Question = {
   allowAttachment: true,
   explanatoryNotes: `Gift of money in the form of:
 
-a) wakaf made to any appropriate religious authority established under any written law, body established by that appropriate religious authority or public university allowed by that appropriate religious authority to receive wakaf; or
-b) endowment made to a public university.
+- wakaf made to any appropriate religious authority established under any written law, body established by that appropriate religious authority or public university allowed by that appropriate religious authority to receive wakaf; or
+- endowment made to a public university.
 
 The wakaf or endowment must be made for the purpose of achieving the objective of establishment of the appropriate religious authority, body or public university.`,
 };

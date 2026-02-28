@@ -12,4 +12,7 @@ export const HobbyCourses: Question = {
     isCurrency: true,
   },
   allowAttachment: true,
+  explanatoryNotes: `Payment for upskilling or self-enhancement course fees other than those subject to section 46(1)(f)(iii) ACP 1967. The course does not need to be registered or recognized by any government body.
+  
+Adequate expenses are proven with receipts issued by the course provider. The course in question is one that encourages taxpayers to learn skills unrelated to their jobs, such as courses related to hobbies, religion, or languages.`
 };

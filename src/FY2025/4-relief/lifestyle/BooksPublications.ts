@@ -12,4 +12,5 @@ export const BooksPublications: Question = {
     isCurrency: true,
   },
   allowAttachment: true,
+  explanatoryNotes: `Expenditure for the purchase or subscription of books, journals, magazines, newspapers and other similar publications (in the form of hardcopy or electronic but **EXCLUDING banned reading materials** such as morally offensive magazines) for the use by own self, spouse or child.`
 };

@@ -15,4 +15,17 @@ export const Section132: Question = {
       id: GlobalCalculations.TAX_CHARGED,
     },
   },
+  explanatoryNotes: `
+Tax relief in respect of income as follows:
+
+- Income from sources in Malaysia brought into Malaysia
+- Income from sources outside Malaysia received in Malaysia by resident
+
+where:
+- **Section 132**: and the income has been taxed in the country of origin that entered into Avoidance of Double Taxation Agreements (DTA) with Malaysia.
+- **Section 133**: and the income has been taxed in the country of origin which **does NOT have Avoidance of Double Taxation Agreements (DTA)** with Malaysia.
+
+Use Working Sheet HK-8 or HK-9 to compute the amount of credit.
+
+If the tax credit claimed for a year of assessment exceeds the Malaysian tax payable on income from outside Malaysia received in Malaysia, the excess tax credit shall be disregarded.`
 };

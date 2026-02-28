@@ -65,5 +65,12 @@ export const RELIEF_IDS = {
   PRS_ANNUITY: "prs-annuity",
   EDUCATION_MEDICAL_INSURANCE: "education-medical-insurance",
   SOCSO_EIS: "socso-eis",
+
+  // Other
+  SUSTAINABILITY: "sustainability",
   EV_CHARGING_FACILITY: "ev-charging-facility",
+  FOOD_WASTE: "food-waste",
+  RESIDENTAL_INTEREST: "residential-interest",
+  RESIDENTAL_INTEREST_500000: "residential-interest-500000",
+  RESIDENTAL_INTEREST_750000: "residential-interest-750000",
 };

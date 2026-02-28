@@ -1,9 +1,10 @@
 import { Question } from "@/types/financial-year";
 import { INCOME_IDS } from "./constants";
+import { fullNotesPage } from "../constants";
 
 export const OtherIncome: Question = {
   id: INCOME_IDS.OTHER_INCOME,
-  icon: "percent",
+  icon: "tags",
   title: "Other Income",
   description:
     "Combined income from interest, discounts, royalties, pensions, or other miscellaneous gains in Malaysia.",
@@ -12,7 +13,7 @@ export const OtherIncome: Question = {
     type: "number",
     isCurrency: true,
   },
-  explanatoryNotes: `Please refer to the full explanatory notes regarding the details of each items.
+  explanatoryNotes: `Please refer to the [full explanatory notes](${fullNotesPage(6)}) under page 6 regarding the details of each items.
 
 * **Interest from sources in Malaysia**: Interest received by Malaysian-resident individuals from deposits with specified licensed banks, financial institutions, Tabung Haji, approved housing finance institutions, and registered co-operative societies is tax exempt.
 * **Discounts from sources in Malaysia**: Income earned from discounting transactions involving treasury bills, bills of exchange, or promissory notes is taxable.

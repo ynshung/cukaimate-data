@@ -16,4 +16,7 @@ export const SOCSOEIS: Question = {
     },
   },
   allowAttachment: true,
+  explanatoryNotes: `A deduction **not exceeding RM350** is allowed in respect of contribution to the Social Security Organization (SOCSO) made or incurred by the individual in the basis year that contribution in accordance to the following act:
+1. Employees Social Security Act 1969
+2. Employment Insurance System Act 2017 for Employment Insurance System (EIS)`
 };

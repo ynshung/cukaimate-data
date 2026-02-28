@@ -6,6 +6,7 @@ import { NonMalaysiaIncome } from "./NonMalaysiaIncome";
 import { OtherIncome } from "./OtherIncome";
 import { RentalIncome } from "./RentalIncome";
 import { SpouseIncome } from "./SpouseIncome";
+import { DividendsIncome } from "./DividendsIncome";
 
 export const IncomeSection: Section = {
   id: INCOME_IDS.SECTION,
@@ -15,6 +16,7 @@ export const IncomeSection: Section = {
   questions: [
     EmploymentCount,
     EmploymentIncome,
+    DividendsIncome,
     RentalIncome,
     OtherIncome,
     NonMalaysiaIncome,

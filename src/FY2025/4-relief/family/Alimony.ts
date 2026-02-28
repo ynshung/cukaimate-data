@@ -22,4 +22,7 @@ export const Alimony: Question = {
     value: "divorced-widowed",
     operator: "eq",
   },
+  explanatoryNotes: `Deduction for payment of alimony to a former wife** is limited to RM4,000 or the actual amount paid if the amount of alimony paid is less than the allowable deduction. The total deduction for a wife living together and alimony payments to the former wife is restricted to RM4,000.
+
+Voluntary alimony payments under a mutual agreement but without any formal agreement do not qualify for deduction.`
 };

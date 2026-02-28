@@ -11,4 +11,5 @@ export const InternetSubscription: Question = {
     isCurrency: true,
   },
   allowAttachment: true,
+  explanatoryNotes: `Payment of monthly bill for internet subscription registered under own name for the use by own self, spouse or child.`,
 };

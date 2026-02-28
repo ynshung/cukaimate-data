@@ -10,4 +10,10 @@ export const EducationFeesDegree: Question = {
     isCurrency: true,
   },
   allowAttachment: true,
+  explanatoryNotes: `Courses of study of **degree at Masters or Doctorate level**:
+
+  Any course of study undertaken for the purpose of acquiring any skill or qualification undertaken in any institution or professional body in Malaysia recognized by the Malaysian Government or approved by the Minister of Finance:
+  
+  Refer to the list of recognized local institutions or approved professional bodies in Malaysia at the official portal of the Ministry of Higher Education Malaysia at [https://www.mohe.gov.my](https://www.mohe.gov.my) for deduction.
+  `
 };

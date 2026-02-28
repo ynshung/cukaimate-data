@@ -9,6 +9,6 @@ export const ChildDisabilitySection: Section = {
   questions: [LearningDisability, DisabilityIntervention],
   sectionLimit: {
     type: "fixed-limit",
-    limit: 4000,
+    limit: 6000,
   },
 };

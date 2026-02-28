@@ -18,5 +18,11 @@ export const SpouseIncome: Question = {
     operator: "eq",
     value: "joint",
   },
-  explanatoryNotes: `Transfer the total income of the spouse to be aggregated with the total income of the individual to this item.`,
+  explanatoryNotes: `Transfer the total income of the spouse to be aggregated with the total income of the individual to this item.
+
+This item **NEED NOT** be filled if:
+1. the individual’s status is single / a divorcee / a widow / a widower
+2. the spouse of the individual has no income, no source of income or has income which is tax exempt
+3. the individual elects for separate assessment
+4. the individual elects for joint assessment to be raised in the **name of his/her spouse**`,
 };

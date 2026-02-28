@@ -1,0 +1,12 @@
+export const CHILD_DISABILITY_EXPLANATORY_NOTES = `The claim is evidenced by:
+- Receipt issued by a medical practitioner registered with the Malaysian Medical Council (MPM) for initial examination for diagnosis purposes;
+- Receipts issued by allied health practitioners registered with the Malaysian Allied Health Professions Council under the Allied Health Professions Act 2016 for early intervention programs or rehabilitation treatment;
+- Expenses qualified as deductions for (i) and (ii) are for the following categories:
+  - Autism Spectrum Disorder;
+  - Attention Deficit Hyperactivity Disorder (ADHD);
+  - Global Developmental Delay (GDD);
+  - Intellectual Disability,
+  - Down Syndrome; and
+  - Specific Learning Disabilities.
+- Assessment for the purpose of diagnosis, early intervention programme and rehabilitation treatment should be carried out in Malaysia.
+- The individual must be a parent of a child who has been certified by a medical practitioner registered with the Malaysian Medical Council as having a learning disability and is aged 18 years and below.`

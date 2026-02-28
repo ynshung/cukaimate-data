@@ -2,10 +2,11 @@ import { Section } from "@/types/financial-year";
 import { RELIEF_IDS } from "../constants";
 import { EducationMedicalInsurance } from "./EducationMedicalInsurance";
 import { EPFApprovedSchemes } from "./EPFApprovedSchemes";
-import { EVChargingFacility } from "./EVChargingFacility";
 import { LifeInsuranceEPF } from "./LifeInsuranceEPF";
 import { PRSAnnuity } from "./PRSAnnuity";
 import { SOCSOEIS } from "./SOCSOEIS";
+import { Sustainability } from "./sustainablility";
+import { ResidentalInterest } from "./residental-interest";
 
 export const InsuranceSection: Section = {
   id: RELIEF_IDS.INSURANCE_SECTION,
@@ -17,6 +18,7 @@ export const InsuranceSection: Section = {
     PRSAnnuity,
     EducationMedicalInsurance,
     SOCSOEIS,
-    EVChargingFacility,
+    Sustainability,
+    ResidentalInterest,
   ],
 };

@@ -12,4 +12,5 @@ export const TechDevices: Question = {
     isCurrency: true,
   },
   allowAttachment: true,
+  explanatoryNotes: `Expenditure for the purchase of personal computer, smartphone or tablet **[Does NOT include additional charge for warranty]** for own use or for the use by own husband / wife or child, and **NOT being used for the purpose of own business**.`
 };

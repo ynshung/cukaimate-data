@@ -9,6 +9,7 @@ export const DisabledSpouse: Question = {
   description: "Is your husband or wife is certified as a disabled person?",
   inputType: {
     type: "boolean",
+    valueIfTrue: 6000,
   },
   allowAttachment: true,
   visibilityCondition: {

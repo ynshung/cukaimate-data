@@ -5,7 +5,7 @@ export const SportsFacilityFees: Question = {
   id: RELIEF_IDS.SPORTS_FACILITY_FEES,
   icon: "flag-checkered",
   title: "Sports Facility Fees",
-  description: "Rental or entrance fees for using sports facilities.",
+  description: "Rental or entrance fees for using sports facilities for self, spouse, child or parents (Malaysian).",
   inputType: {
     type: "number",
     isCurrency: true,

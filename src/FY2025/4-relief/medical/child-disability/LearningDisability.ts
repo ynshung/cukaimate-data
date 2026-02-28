@@ -1,5 +1,6 @@
 import { Question } from "@/types/financial-year";
 import { RELIEF_IDS } from "../../constants";
+import { CHILD_DISABILITY_EXPLANATORY_NOTES } from "./constants";
 
 export const LearningDisability: Question = {
   id: RELIEF_IDS.LEARNING_DISABILITY,
@@ -12,4 +13,5 @@ export const LearningDisability: Question = {
     isCurrency: true,
   },
   allowAttachment: true,
+  explanatoryNotes: CHILD_DISABILITY_EXPLANATORY_NOTES,
 };

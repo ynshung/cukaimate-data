@@ -15,4 +15,7 @@ export const UpskillingFees: Question = {
     },
   },
   allowAttachment: true,
+  explanatoryNotes: `**Course of study undertaken for the purpose of up-skilling or self-enhancement**:
+
+A deduction **up to RM2,000** can be claimed on any skill area recognized by Director General of Skills Development under National Skills Development Act 2006 [Act 652]. Deduction is allowed for **year of assessment 2024 to 2026**.`
 };
