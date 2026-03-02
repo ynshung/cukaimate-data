@@ -13,10 +13,21 @@ export const SpouseIncome: Question = {
     isCurrency: true,
   },
   visibilityCondition: {
-    type: "string",
-    dependsOn: PERSONAL_IDS.ASSESSMENT_TYPE,
-    operator: "eq",
-    value: "joint",
+    type: "and",
+    conditions: [
+      {
+        type: "string",
+        dependsOn: PERSONAL_IDS.CURRENT_STATUS,
+        operator: "eq",
+        value: "married",
+      },
+      {
+        type: "string",
+        dependsOn: PERSONAL_IDS.ASSESSMENT_TYPE,
+        operator: "eq",
+        value: "joint",
+      },
+    ],
   },
   explanatoryNotes: `Transfer the total income of the spouse to be aggregated with the total income of the individual to this item.
 
