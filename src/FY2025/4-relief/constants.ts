@@ -67,6 +67,7 @@ export const RELIEF_IDS = {
   SOCSO_EIS: "socso-eis",
 
   // Other
+  OTHER_SECTION: "other-reliefs",
   SUSTAINABILITY: "sustainability",
   EV_CHARGING_FACILITY: "ev-charging-facility",
   FOOD_WASTE: "food-waste",

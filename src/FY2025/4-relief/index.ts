@@ -11,6 +11,7 @@ import { LifestyleSection } from "./lifestyle";
 import { MedicalSection } from "./medical";
 import { ParentsSection } from "./parents";
 import { SportsSection } from "./sports";
+import { OtherSection } from "./other";
 
 export const ReliefSection: Section = {
   id: RELIEF_IDS.SECTION,
@@ -28,6 +29,7 @@ export const ReliefSection: Section = {
     SportsSection,
     FamilySection,
     InsuranceSection,
+    OtherSection,
   ],
   color: "#377ffc",
 };

@@ -5,12 +5,10 @@ import { EPFApprovedSchemes } from "./EPFApprovedSchemes";
 import { LifeInsuranceEPF } from "./LifeInsuranceEPF";
 import { PRSAnnuity } from "./PRSAnnuity";
 import { SOCSOEIS } from "./SOCSOEIS";
-import { Sustainability } from "./sustainablility";
-import { ResidentalInterest } from "./residental-interest";
 
 export const InsuranceSection: Section = {
   id: RELIEF_IDS.INSURANCE_SECTION,
-  title: "Insurance & Other",
+  title: "Insurance",
   icon: "shield",
   questions: [
     LifeInsuranceEPF,
@@ -18,7 +16,5 @@ export const InsuranceSection: Section = {
     PRSAnnuity,
     EducationMedicalInsurance,
     SOCSOEIS,
-    Sustainability,
-    ResidentalInterest,
   ],
 };
