@@ -8,7 +8,7 @@
     "serve": "ts-node src/server.ts",
     "watch": "nodemon --watch src --watch types --watch constants --ext ts --exec \"npm run build\"",
     "dev": "concurrently \"npm run watch\" \"npm run serve\"",
-    "type-check": "tsc --noEmit"
+    "lint": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
