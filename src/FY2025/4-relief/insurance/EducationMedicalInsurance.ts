@@ -12,7 +12,7 @@ export const EducationMedicalInsurance: Question = {
     isCurrency: true,
     totalLimit: {
       type: "fixed-limit",
-      limit: 3000,
+      limit: 4000,
     },
   },
   allowAttachment: true,
