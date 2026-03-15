@@ -73,6 +73,33 @@ Contributions are welcome! If you'd like to add new tips/notes, improve the tax 
 
 Usually for the current financial year, it will be first copied from the previous financial year and amended after the full details are released from LHDN.
 
+## Exported Data Format
+The following is the TypeScript types of the exported JSON file:
+```typescript
+type AttachmentFile = {
+  id: string; // UUID used for file name on disk
+  name: string; // Original file name for display
+};
+
+type AttachmentItem = {
+  id: string; // UUID
+  name: string;
+  value: number;
+  date?: Date;
+  createdAt: Date;
+  files: AttachmentFile[]; // Array of file objects with UUID and original name
+};
+
+type Value = {
+  value: number | string | boolean;
+  realValue?: number;
+  attachmentItems?: AttachmentItem[];
+  attachmentEnabled?: boolean; // Whether attachment mode is active
+};
+
+type exportedData = Record<string, Value>;
+```
+
 ## License
 
 GNU GPLv3
