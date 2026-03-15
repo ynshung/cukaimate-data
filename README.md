@@ -62,7 +62,7 @@ Runs the TypeScript compiler (`tsc`) as a linter without emitting compiled files
 
 > If you're not a developer, you may send feedback through https://cukaimate.com/feedback.
 
-Contributions are welcome! If you'd like to help improve the tax models, add new data, or fix an issue, please feel free to open a pull request or submit an issue in the repository.
+Contributions are welcome! If you'd like to add new tips/notes, improve the tax models, or fix an issue, please feel free to open a pull request or submit an issue in the repository.
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/NewRelief`)
