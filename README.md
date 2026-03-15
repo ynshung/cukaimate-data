@@ -97,7 +97,7 @@ type Value = {
   attachmentEnabled?: boolean; // Whether attachment mode is active
 };
 
-type exportedData = Record<string, Value>;
+type exportedData = Record<string, Value>; // The key refer to the id of the field
 ```
 
 ## License
