@@ -7,6 +7,7 @@ A data repository containing structured Malaysian tax relief and assessment reco
 - **Type-Safe Models**: Written strictly in TypeScript to guarantee consistent data structures.
 - **Automated Artifact Generation**: Bundled script to output JSON copies (`index.json`, `notes.json`) along with hash versioning for consumption by external applications.
 - **Local API Environment**: Built-in Express server to instantly preview the built data structures API.
+- **Automatic Deployment**: Automatically deploys to CF Workers when changes are pushed to the main branch at [data.cukaimate.com](https://data.cukaimate.com/index.json).
 
 ## Getting Started
 
